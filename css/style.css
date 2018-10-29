@@ -263,3 +263,7 @@ body, html {
   font-family:"Segoe UI", Arial, Times New Roman;
   color: #f0f1f5;
 }
+#header-pic {
+  width: 135px;
+  height: 132px;
+}
