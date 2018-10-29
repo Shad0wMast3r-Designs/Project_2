@@ -257,3 +257,8 @@ textarea {
     width: 100%;
   }
 }
+/*Background Color and Font Stacks*/
+body, html {
+  background-color: #485167;
+  font-family:"Segoe UI", Arial, Times New Roman;
+}
