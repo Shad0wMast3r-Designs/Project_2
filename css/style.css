@@ -258,7 +258,7 @@ textarea {
   }
 }
 /*Background Color and Font Stacks*/
-body, html { //modular scale used the golden scale
+body, html {
   background-color: #485167;
   font-family:"Segoe UI", Arial, Times New Roman;
 }
