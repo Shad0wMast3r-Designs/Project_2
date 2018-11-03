@@ -248,7 +248,9 @@ input[type=text],
 input[type=date] {
   width: 95%;
 }
+
 /*Navigation Bar Styling*/
+
 .nav {
   width: 100%;
   background-color: #2F3648;
@@ -278,14 +280,32 @@ input[type=date] {
 }
 
 .nav a:hover {
-  background-color: #BEBE0D;
+  background-color: #BA27C4;
 }
 
 .nav a:active {
-  background-color: #F8F14F;
+  background-color: #B77DBB;
   color: #333;
 }
 
+/*Background Color and Font Stacks*/
+
+body, html {
+  background-color: White;
+  font-family:"Segoe UI", Arial, Times New Roman;
+  color: black;
+}
+
+.banner_pic {
+  max-width: 135px;
+  max-height: 132px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%
+	position: static;
+	padding: 1%;
+}
 
 @media screen and (min-width: 480px) {
   form > label,
@@ -293,15 +313,4 @@ input[type=date] {
   	text-align: center;
     width: 100%;
   }
-}
-/*Background Color and Font Stacks*/
-body, html {
-  background-color: #485167;
-  font-family:"Segoe UI", Arial, Times New Roman;
-  color: #f0f1f5;
-}
-
-.banner_pic {
-  max-width: 135px;
-  max-height: 132px;
 }
