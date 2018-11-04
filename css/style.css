@@ -317,6 +317,19 @@ body, html {
 
 /*Home Page Specific CSS. DON'T TOUCH! - Geldi Omeri*/
 
+div#slideShow {
+  /* Main wrapper for all images */
+	width: 100%;
+	padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.slides{
+	width: 100%;
+}
+
 div#isud{
 	background-color: #2F3648;
 	color: white;
@@ -344,7 +357,7 @@ div#isud > p{
 	margin-top: 5px;
 	margin-left: 10px;
 	margin-right: 10px;
-	margin-bottom: 10px;
+	padding-bottom: 10px;
 }
 /*Larger Phones, Side View on Phones, and Small Tablet Screen Size*/
 
