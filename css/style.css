@@ -398,7 +398,7 @@ div#congress > h1{
 }
 
 /*Andy Kukuc about.html css DON'T TOUCH*/
-#map {
+#map { /*google maps api key no longer free*/
   height: 400px;
   width: 1200px;
   border: 5px solid black;
