@@ -362,7 +362,7 @@ div#isud > p{
 
 div#isudVideo{
 	max-height: 50%;
-  max-width: 95%;
+  max-width: 96%;
   margin: auto;
   position: relative;
   padding-bottom: 56.25%;
@@ -378,6 +378,19 @@ div#isudVideo{
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+}
+
+div#congress{
+	background-color: #858C9B;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	text-align: center;
+}
+
+div#congress > h1{
+	font-size: 1.4em;
+	font-weight: bold;
+	padding: 25px;
 }
 
 /*Larger Phones, Side View on Phones, and Small Tablet Screen Size*/
