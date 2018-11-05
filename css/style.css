@@ -399,8 +399,8 @@ div#congress > h1{
 
 /*Andy Kukuc about.html css DON'T TOUCH*/
 #map { /*google maps api key no longer free*/
-  height: 350px;
-  width: 1200px;
+  height: 250px;
+  width: 100%;
   border: 5px solid black;
   margin-top: 20px;
   position: relative;
@@ -421,14 +421,15 @@ div#about > h3 {
 }
 
 div#about > p {
-  text-indent: 50px;
-  font-size: 24px;
-  font-weight: 500;
-  margin-top: 10px;
+  margin-top: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-bottom: 10px;
+
 }
 /*Larger Phones, Side View on Phones, and Small Tablet Screen Size*/
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   form > label,
 	legend {
   	text-align: center;
@@ -437,5 +438,4 @@ div#about > p {
 }
 
 @media screen and (min-width: 768px){
-
-}
+  }
