@@ -6,6 +6,23 @@ ITMD-362-01
 Project 2 JavaScript file
 24th Oct. 2018*/
 
+/* Slideshow JS */
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("slides");
+  for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 5000);
+}
+
+/* Google Map JS */
 var map;
 function initMap()
 {
