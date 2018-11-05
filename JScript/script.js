@@ -24,6 +24,7 @@ function carousel() {
 
 /* Google Map JS */
 var map;
+var marker;
 function initMap()
 {
   map = new google.maps.Map(document.getElementById('map'),
@@ -48,23 +49,23 @@ function initMap()
   var contentString =
     '<h1>Pontifical Catholic University of Peru</h1>';
 
-  var infowindow = new google.maps.infoWindow(
+  var Infowindow = new google.maps.InfoWindow(
     {
       content: contentString
     });
-
+    
   var marker = new google.maps.Marker(
   {
-    position: {lat: -12.069344, lng: -77.080122},
     map: map,
+    draggable: true,
+    position: {lat: -12.069344, lng: -77.080122},
     animation: google.maps.Animation.DROP,
     title: 'Pontifical Catholic University of Peru'
   });
 
   marker.addListener('click', function()
   {
-    infowindow.open(map, marker);
+    Infowindow.open(map, marker);
   });
 }
-
 google.maps.event.addDomListener(window, 'load', initMap);
