@@ -466,6 +466,7 @@ div#about > p {
 	padding-bottom: 10px;
 
 }
+
 /*Larger Phones, Side View on Phones, and Small Tablet Screen Size*/
 
 @media screen and (max-width: 480px) {
@@ -476,5 +477,12 @@ div#about > p {
   }
 }
 
+/*Tablets, Small laptops*/
+
 @media screen and (min-width: 768px){
-  }
+}
+
+/*Desktops, Large Monitors*/
+
+@media screen and (min-width: 1024px){
+}
