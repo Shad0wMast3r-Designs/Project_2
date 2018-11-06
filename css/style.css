@@ -387,8 +387,8 @@ div#isudVideo{
 div#congress{
 	background-color: #858C9B;
 	margin-top: 1%;
-	margin-bottom: 1%;
-	padding-bottom: 2px;
+	margin-bottom: 0%;
+	padding-bottom: 1px;
 	text-align: center;
 }
 
@@ -401,11 +401,12 @@ div#congress > h1{
 
 div#congress > p{
 	padding: 2px;
+	padding-bottom: 5px;
 	color: #2F3648;
 }
 
 p.end{
-	margin-bottom: 10px;
+	padding-bottom: 10px;
 }
 
 img#DaU{
@@ -421,6 +422,16 @@ p#DaUText{
 	margin-right: auto;
 	color: #2F3648;
 	text-decoration: none;
+}
+
+footer{
+	background-color: #2F3648;
+	color: white;
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
 }
 
 /*Andy Kukuc about.html css DON'T TOUCH*/
