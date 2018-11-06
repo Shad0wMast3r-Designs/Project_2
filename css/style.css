@@ -344,7 +344,7 @@ div#isud{
 	text-align: center;
 }
 div#isud > h1{
-	font-size: 1.4em;
+	font-size: 1.44em;
 	font-weight: bold;
 	padding: 25px;
 }
@@ -373,7 +373,7 @@ div#isudVideo{
 	margin-bottom: 1%;
 }
 
-.isudVideo {
+.isudVideo{
 	position: absolute;
   top: 0;
   left: 0;
@@ -392,9 +392,23 @@ div#congress{
 }
 
 div#congress > h1{
-	font-size: 1.4em;
+	font-size: 1.44em;
 	font-weight: bold;
 	padding: 25px;
+}
+
+img#DaU{
+	width: 100%;
+}
+
+div#congress > p{
+	margin-top: 5px;
+	margin-bottom: 25px;
+	font-size: 0.8em;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #2F3648;
 }
 
 /*Andy Kukuc about.html css DON'T TOUCH*/
