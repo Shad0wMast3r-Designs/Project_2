@@ -388,27 +388,39 @@ div#congress{
 	background-color: #858C9B;
 	margin-top: 1%;
 	margin-bottom: 1%;
+	padding-bottom: 2px;
 	text-align: center;
 }
 
 div#congress > h1{
 	font-size: 1.44em;
 	font-weight: bold;
-	padding: 25px;
+	padding: 18px;
+	padding-bottom: 12px;
+}
+
+div#congress > p{
+	padding: 2px;
+	color: #2F3648;
+}
+
+p.end{
+	margin-bottom: 10px;
 }
 
 img#DaU{
 	width: 100%;
 }
 
-div#congress > p{
+p#DaUText{
 	margin-top: 5px;
-	margin-bottom: 25px;
+	margin-bottom: 18px;
 	font-size: 0.8em;
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 	color: #2F3648;
+	text-decoration: none;
 }
 
 /*Andy Kukuc about.html css DON'T TOUCH*/
