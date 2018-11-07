@@ -475,36 +475,6 @@ div#about > p {
 
 /*Home Page CSS - Geldi Omeri*/
 
-<<<<<<< HEAD
-	.nav li a {
-	  padding: 10px 25px;
-	}
-
-	.slides{
-		width: 70%;
-	}
-
-	div#isud > h1, h2, p{
-		width: 80%;
-		margin-left: auto;
-		margin-right: auto;
-		text-align: center;
-	}
-
-	p.end{
-		margin-bottom: 10px;
-	}
-
-	div#isudVideo{
-	  max-width: 70%;
-		padding-bottom: 40%;
-	}
-
-	footer{
-		padding-top: 30px;
-		padding-bottom: 30px;
-	}
-=======
   .nav li a {
     padding: 10px 25px;
   }
@@ -533,7 +503,6 @@ div#about > p {
     padding-top: 30px;
     padding-bottom: 30px;
   }
->>>>>>> 81620af94627d831ccfc91555dcec420ccfb28ba
 /*Tablets, Small laptops*/
 
 @media screen and (min-width: 768px){
@@ -548,15 +517,9 @@ div#about > p {
     width: 60%;
   }
 
-<<<<<<< HEAD
-		div#isud > h1, h2, p{
-			width: 70%;
-		}
-=======
   h1, h2, p{
     width: 60%;
   }
->>>>>>> 81620af94627d831ccfc91555dcec420ccfb28ba
 
   p.end{
     margin-bottom: 13px;
@@ -587,15 +550,9 @@ div#about > p {
     width: 40%;
   }
 
-<<<<<<< HEAD
-		div#isud > h1, h2, p{
-			width: 50%;
-		}
-=======
   h1, h2, p{
     width: 50%;
   }
->>>>>>> 81620af94627d831ccfc91555dcec420ccfb28ba
 
   h1{
     font-size: 1.728em;
