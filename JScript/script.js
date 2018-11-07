@@ -29,7 +29,7 @@ function initMap()
 {
   map = new google.maps.Map(document.getElementById('map'),
   {
-    center: {lat: -12.069344, lng: -77.080122},
+    center: {lat: 52.2296, lng: 21.0122},
     zoom: 10,
     mapTypeId: 'roadmap',
     mapTypeControl: true,
@@ -47,7 +47,7 @@ function initMap()
   });
 
   var contentString =
-    '<h1>Pontifical Catholic University of Peru</h1>';
+    '<h1>International Society for Universal Dialgoue</h1>';
 
   var Infowindow = new google.maps.InfoWindow(
     {
@@ -58,9 +58,9 @@ function initMap()
   {
     map: map,
     draggable: true,
-    position: {lat: -12.069344, lng: -77.080122},
-    animation: google.maps.Animation.DROP,
-    title: 'Pontifical Catholic University of Peru'
+    position: {lat: 52.2297, lng: 21.0122},
+    animation: google.maps.Animation.BOUNCE,
+    title: 'International Society for Universal Dialgoue'
   });
 
   marker.addListener('click', function()
