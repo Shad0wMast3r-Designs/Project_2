@@ -295,7 +295,9 @@ body, html {
   font-family:"Segoe UI", Arial, Times New Roman;
   color: black;
 }
-
+div#about > html {
+  font-size: 1.125em;
+}
 .title{
   text-align: center;
   font-weight: bold;
@@ -448,6 +450,7 @@ div#about > h1 {
   font-size: 1.4em;
   font-weight: bold;
   padding: 10px;
+  text-align: center;
 }
 
 div#about > h3 {
@@ -483,13 +486,12 @@ div#about > p {
     width: 70%;
    }
 
-  div#isud > h1, h2, p{
+  #isud  h1, h2, #isud p{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
   }
-
   p.end{
     margin-bottom: 10px;
   }
@@ -517,7 +519,7 @@ div#about > p {
     width: 60%;
   }
 
-  div#isud > h1, h2, p{
+  #isud > h1, h2, #isud p{
     width: 60%;
   }
 
@@ -550,7 +552,7 @@ div#about > p {
     width: 40%;
   }
 
-  div#isud > h1, h2, p{
+  #isud > h1, h2, #isud p{
     width: 50%;
   }
 
@@ -580,3 +582,5 @@ div#about > p {
     padding-bottom: 40px;
   }
 }
+
+@media screen 
