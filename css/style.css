@@ -283,9 +283,8 @@ input[type=date] {
   background-color: #BA27C4;
 }
 
-.nav a:active {
+.nav a.active {
   background-color: #B77DBB;
-  color: #333;
 }
 
 /*Background Color and Font Stacks*/
