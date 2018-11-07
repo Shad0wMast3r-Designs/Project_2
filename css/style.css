@@ -167,7 +167,7 @@ progress {
 }
 
 /**
- * Remove the default vertical scrollbar in IE.
+* Remove the default vertical scrollbar in IE.
  */
 
 textarea {
@@ -229,7 +229,7 @@ form {
 }
 form > label,
 legend {
-	width: 100%;
+  width: 100%;
   float: none;
 }
 
@@ -297,140 +297,140 @@ body, html {
 }
 
 .title{
-	text-align: center;
-	font-weight: bold;
-	font-size: 1.2em;
-	margin-top: 5px;
-	margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 .banner_pic {
   max-width: 135px;
   max-height: 132px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-	position: static;
-	padding: 1%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: static;
+  padding: 1%;
 }
 
 /*Home Page Specific CSS - Geldi Omeri*/
 
 div#slideShow{
   /* Main wrapper for all images */
-	max-width: 100%;
-	max-height: 250px;
+  max-width: 100%;
+  max-height: 250px;
   margin: auto;
   overflow: hidden;
   position: relative;
 }
 
 .slides{
-	width: 100%;
-	height: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
+  width: 100%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 div#isud{
-	background-color: #2F3648;
-	color: white;
-	text-align: center;
-	padding-bottom: 1px;
+  background-color: #2F3648;
+  color: white;
+  text-align: center;
+  padding-bottom: 1px;
 }
 div#isud > h1{
-	font-size: 1.44em;
-	font-weight: bold;
-	padding: 25px;
+  font-size: 1.44em;
+  font-weight: bold;
+  padding: 25px;
 }
 
 div#isud > h2{
-	font-size: 1.2em;
-	font-weight: bold;
-	padding: 5px;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 5px;
 }
 
 div#isud > p{
-	margin-top: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
+  margin-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 div#isudVideo{
-	max-height: 50%;
+  max-height: 50%;
   max-width: 96%;
   margin: auto;
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 25px;
-	margin-top: 1%;
-	margin-bottom: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .isudVideo{
-	position: absolute;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 div#congress{
-	background-color: #858C9B;
-	margin-top: 1%;
-	margin-bottom: 0%;
-	padding-bottom: 1px;
-	text-align: center;
+  background-color: #858C9B;
+  margin-top: 1%;
+  margin-bottom: 0%;
+  padding-bottom: 1px;
+  text-align: center;
 }
 
 div#congress > h1{
-	font-size: 1.44em;
-	font-weight: bold;
-	padding: 18px;
-	padding-bottom: 12px;
+  font-size: 1.44em;
+  font-weight: bold;
+  padding: 18px;
+  padding-bottom: 12px;
 }
 
 div#congress > p{
-	padding: 2px;
-	padding-bottom: 5px;
-	color: #2F3648;
+  padding: 2px;
+  padding-bottom: 5px;
+  color: #2F3648;
 }
 
 p.end{
-	padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 img#DaU{
-	width: 100%;
+  width: 100%;
 }
 
 p#DaUText{
-	margin-top: 5px;
-	margin-bottom: 18px;
-	font-size: 0.8em;
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-	color: #2F3648;
-	text-decoration: none;
+  margin-top: 5px;
+  margin-bottom: 18px;
+  font-size: 0.8em;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #2F3648;
+  text-decoration: none;
 }
 
 footer{
-	background-color: #2F3648;
-	color: white;
-	position: relative;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	text-align: center;
-	padding-bottom: 20px;
-	padding-top: 20px;
+  background-color: #2F3648;
+  color: white;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 /*Andy Kukuc about.html css DON'T TOUCH*/
@@ -458,9 +458,9 @@ div#about > h3 {
 
 div#about > p {
   margin-top: 5px;
-	margin-left: 10px;
-	margin-right: 10px;
-	padding-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 10px;
 
 }
 
@@ -468,13 +468,14 @@ div#about > p {
 
 @media screen and (min-width: 480px) {
   form > label,
-	legend {
-  	text-align: center;
+  legend {
+    text-align: center;
     width: 100%;
   }
 
 /*Home Page CSS - Geldi Omeri*/
 
+<<<<<<< HEAD
 	.nav li a {
 	  padding: 10px 25px;
 	}
@@ -503,80 +504,122 @@ div#about > p {
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}
+=======
+  .nav li a {
+    padding: 10px 25px;
+  }
+
+  .slides{
+    width: 70%;
+   }
+
+  h1, h2, p{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  p.end{
+    margin-bottom: 10px;
+  }
+
+  div#isudVideo{
+    max-width: 70%;
+    padding-bottom: 40%;
+  }
+
+  footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+>>>>>>> 81620af94627d831ccfc91555dcec420ccfb28ba
 /*Tablets, Small laptops*/
 
 @media screen and (min-width: 768px){
 
-	/*Home Page CSS - Geldi Omeri*/
+/*Home Page CSS - Geldi Omeri*/
 
-		.nav li a {
-		  padding: 15px 30px;
-		}
+  .nav li a {
+    padding: 15px 30px;
+  }
 
-		.slides{
-			width: 60%;
-		}
+  .slides{
+    width: 60%;
+  }
 
+<<<<<<< HEAD
 		div#isud > h1, h2, p{
 			width: 70%;
 		}
+=======
+  h1, h2, p{
+    width: 60%;
+  }
+>>>>>>> 81620af94627d831ccfc91555dcec420ccfb28ba
 
-		p.end{
-			margin-bottom: 13px;
-		}
+  p.end{
+    margin-bottom: 13px;
+  }
 
-		div#isudVideo{
-		  max-width: 60%;
-			padding-bottom: 30%;
-		}
+  div#isudVideo{
+    max-width: 60%;
+    padding-bottom: 30%;
+  }
 
-		footer{
-			padding-top: 35px;
-			padding-bottom: 35px;
-		}
+  footer{
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
 }
 
 /*Desktops, Large Monitors*/
 
 @media screen and (min-width: 1024px){
 
-	/*Home Page CSS - Geldi Omeri*/
+/*Home Page CSS - Geldi Omeri*/
 
-		.nav li a {
-			padding: 20px 40px;
-		}
+  .nav li a {
+    padding: 20px 40px;
+  }
 
-		.slides{
-			width: 40%;
-		}
+  .slides{
+    width: 40%;
+  }
 
+<<<<<<< HEAD
 		div#isud > h1, h2, p{
 			width: 50%;
 		}
+=======
+  h1, h2, p{
+    width: 50%;
+  }
+>>>>>>> 81620af94627d831ccfc91555dcec420ccfb28ba
 
-		h1{
-			font-size: 1.728em;
-		}
+  h1{
+    font-size: 1.728em;
+  }
 
-		h2{
-			font-size: 1.44em;
-		}
+  h2{
+    font-size: 1.44em;
+  }
 
-		p{
-			font-size: 1.2em;
-		}
+  p{
+    font-size: 1.2em;
+   }
 
-		p#DaUText{
-			font-size: 1em;
-		}
+  p#DaUText{
+    font-size: 1em;
+  }
 
-		div#isudVideo{
-			max-width: 40%;
-			padding-bottom: 20%;
-		}
+  div#isudVideo{
+    max-width: 40%;
+    padding-bottom: 20%;
+  }
 
-		footer{
-			padding-top: 40px;
-			padding-bottom: 40px;
-		}
+  footer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
