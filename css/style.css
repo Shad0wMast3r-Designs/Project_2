@@ -317,6 +317,10 @@ body, html {
 
 /*Home Page Specific CSS. DON'T TOUCH! - Geldi Omeri*/
 
+body#home > main{
+	background-color: #E5E0E2;
+}
+
 div#slideShow{
   /* Main wrapper for all images */
 	max-width: 100%;
@@ -477,6 +481,8 @@ div#about > p {
     width: 100%;
   }
 
+/*Home Page CSS - Geldi Omeri*/
+
 	.nav li a {
 	  padding: 10px 25px;
 	}
@@ -497,10 +503,8 @@ div#about > p {
 	}
 
 	div#isudVideo{
-		max-height: 50%;
 	  max-width: 70%;
 		padding-bottom: 40%;
-		padding-top: 25px;
 	}
 
 	footer{
@@ -510,9 +514,38 @@ div#about > p {
 /*Tablets, Small laptops*/
 
 @media screen and (min-width: 768px){
+
+	/*Home Page CSS - Geldi Omeri*/
+
+		.nav li a {
+		  padding: 10px 30px;
+		}
+
+		.slides{
+			width: 60%;
+		}
+
+		h1, h2, p{
+			width: 60%;
+		}
+
+		p.end{
+			margin-bottom: 13px;
+		}
+
+		div#isudVideo{
+		  max-width: 60%;
+			padding-bottom: 30%;
+		}
+
+		footer{
+			padding-top: 35px;
+			padding-bottom: 35px;
+		}
 }
 
 /*Desktops, Large Monitors*/
 
 @media screen and (min-width: 1024px){
+	
 }
