@@ -315,11 +315,7 @@ body, html {
 	padding: 1%;
 }
 
-/*Home Page Specific CSS. DON'T TOUCH! - Geldi Omeri*/
-
-body#home > main{
-	background-color: #E5E0E2;
-}
+/*Home Page Specific CSS - Geldi Omeri*/
 
 div#slideShow{
   /* Main wrapper for all images */
@@ -341,10 +337,6 @@ div#slideShow{
 div#isud{
 	background-color: #2F3648;
 	color: white;
-	/* Maybe create whitespace on the sides
-	margin-left: 1%;
-	margin-right: 1%;
-	*/
 	text-align: center;
 	padding-bottom: 1px;
 }
@@ -518,7 +510,7 @@ div#about > p {
 	/*Home Page CSS - Geldi Omeri*/
 
 		.nav li a {
-		  padding: 10px 30px;
+		  padding: 15px 30px;
 		}
 
 		.slides{
@@ -547,5 +539,44 @@ div#about > p {
 /*Desktops, Large Monitors*/
 
 @media screen and (min-width: 1024px){
-	
+
+	/*Home Page CSS - Geldi Omeri*/
+
+		.nav li a {
+			padding: 20px 40px;
+		}
+
+		.slides{
+			width: 40%;
+		}
+
+		h1, h2, p{
+			width: 50%;
+		}
+
+		h1{
+			font-size: 1.728em;
+		}
+
+		h2{
+			font-size: 1.44em;
+		}
+
+		p{
+			font-size: 1.2em;
+		}
+
+		p#DaUText{
+			font-size: 1em;
+		}
+
+		div#isudVideo{
+			max-width: 40%;
+			padding-bottom: 20%;
+		}
+
+		footer{
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}
 }
