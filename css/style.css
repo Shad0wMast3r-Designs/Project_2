@@ -483,8 +483,8 @@ div#about > p {
 		width: 70%;
 	}
 
-	h1, h2, p{
-		width: 70%;
+	div#isud > h1, h2, p{
+		width: 80%;
 		margin-left: auto;
 		margin-right: auto;
 		text-align: center;
@@ -517,8 +517,8 @@ div#about > p {
 			width: 60%;
 		}
 
-		h1, h2, p{
-			width: 60%;
+		div#isud > h1, h2, p{
+			width: 70%;
 		}
 
 		p.end{
@@ -550,7 +550,7 @@ div#about > p {
 			width: 40%;
 		}
 
-		h1, h2, p{
+		div#isud > h1, h2, p{
 			width: 50%;
 		}
 
