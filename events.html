@@ -21,18 +21,19 @@
     <nav class="nav">
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a class="active" href="events.html">Events</a></li>
+        <li><a href="events.html">Events</a></li>
         <li><a href="about.html">About Us</a></li>
       </ul>
     </nav>
     <div>
       <h1>Sign Up to get the latest events!</h1>
+    </div>
       <form method="get" action="#null" autocomplete="on">
         <div>
           <label>Name</label>
         </div>
         <div>
-          <input type="text" name="name" value="" placeholder="First Name and Last Name" required/>
+          <input type="text" name="name" value="" placeholder="Enter Full Name" required/>
         </div>
         <div>
           <label>E-Mail</label>
@@ -40,6 +41,30 @@
         <div>
           <input type="text" name="email" value="" placeholder="john@yahoo.com" required/>
         </div>
+        </div>
+        <div>
+          <label>Phone Number</label>
+        </div>
+        <div>
+          <input type="text" name="phone" value="" placeholder="xxx-xxx-xxxx" required/>
+        </div>
+      <div>
+        <label>Continent of Residence</label>
+      </div>
+      <div>
+        <select id="continent" name="continent">
+            <option value="northamerica">North America</option>
+            <option value="southamerica">South America</option>
+            <option value="europe">Europe</option>
+            <option value="asia">Asia</option>
+            <option value="australia">Australia</option>
+            <option value="africa">Africa</option>
+            <option value="antartica">Antartica</option>
+        </select>
+      </div>
+      <div>
+        <input type="submit" value="Get Involved Now!" onclick="return myFunction();"/>
+      </div>
     </div>
   </body>
   <footer>

@@ -467,6 +467,20 @@ div#about > p {
 
 }
 
+/* css for the events page. DJ RYBSKI */
+input{
+	width: 100%;
+	padding: 5px 5px;
+	margin-bottom: 15px;
+}
+input[type=submit] {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	width: 10em;
+}
+
 /*Larger Phones, Side View on Phones, and Small Tablet Screen Size*/
 
 @media screen and (min-width: 480px) {
