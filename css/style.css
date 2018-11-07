@@ -441,7 +441,7 @@ footer{
   width: 100%;
   border: 5px solid black;
   margin-top: 20px;
-  position: relative;
+  position: relative; 
   margin-right: auto;
   margin-left: auto;
 }
@@ -464,6 +464,7 @@ div#about > p {
   margin-left: 10px;
   margin-right: 10px;
   padding-bottom: 10px;
+  font-size: 1.125em;
 
 }
 
@@ -505,6 +506,7 @@ div#about > p {
     padding-top: 30px;
     padding-bottom: 30px;
   }
+}
 /*Tablets, Small laptops*/
 
 @media screen and (min-width: 768px){
@@ -543,7 +545,7 @@ div#about > p {
 @media screen and (min-width: 1024px){
 
 /*Home Page CSS - Geldi Omeri*/
-
+  
   .nav li a {
     padding: 20px 40px;
   }
@@ -581,4 +583,11 @@ div#about > p {
     padding-top: 40px;
     padding-bottom: 40px;
   }
-} 
+  #map, #about  {
+    max-width: 72.444em;
+  }
+  #about {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
