@@ -580,6 +580,9 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
     padding-top: 30px;
     padding-bottom: 30px;
   }
+  #sign_up_box {
+    width: 100%;
+  }
 }
 /*Tablets, Small laptops*/
 
@@ -611,6 +614,9 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
   footer{
     padding-top: 35px;
     padding-bottom: 35px;
+  }
+  #sign_up_box {
+    width: 80%;
   }
 }
 
@@ -663,5 +669,8 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
   #about {
     margin-right: auto;
     margin-left: auto;
+  }
+  #sign_up_box {
+    max-width: 40.444em;
   }
 }
