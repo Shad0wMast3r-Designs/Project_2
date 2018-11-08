@@ -69,3 +69,9 @@ function initMap()
   });
 }
 google.maps.event.addDomListener(window, 'load', initMap);
+
+function myFunction() {
+  alert("Thank You For Signing Up!");
+  window.open("https://trident-webdesigns.github.io/Project_2/index.html");
+  return false;
+}
