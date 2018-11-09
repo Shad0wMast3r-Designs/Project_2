@@ -291,7 +291,7 @@ input[type=date] {
 
 body, html {
   background-color: White;
-  font-family:"Segoe UI", Arial, Times New Roman;
+  font-family:"Segoe UI", Helvetica, Tahoma, sans-serif;
   color: black;
 }
 div#about > html {
