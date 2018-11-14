@@ -506,10 +506,12 @@ div#about > p {
 }
 
 input[type="text"] {
+  font-family: inherit;
 	display: block;
   text-align:center;
   box-sizing: border-box;
   margin-bottom: 40px;
+  margin-left: 4.00em;
   padding: 4px;
   width: 220px;
   height: 32px;
@@ -520,12 +522,13 @@ input[type="text"] {
   transition: 0.2s ease;
 }
 input[type="text"]:focus {
-  border-bottom: 2px solid #16A085;
-  color: #16A085;
+  border-bottom: 2px solid #BA27C4;
+  color: ;
   transition: 0.2s ease;
 }
 input[type="submit"] {
   margin-top: 1em;
+  font-family: inherit;
   margin-left: 3.00em;
   width: 120px;
   height: 32px;
@@ -537,9 +540,11 @@ input[type="submit"] {
   text-transform: uppercase;
   transition: 0.1s ease;
   cursor: pointer;
+  margin-left: 7.000em;
 }
 input[type="submit"]:hover, input[type="submit"]:focus  {
     opacity: 0.8;
+    background-color: #BA27C4;
     box-shadow: 0 2px 4px;
     transition: 0.1s ease;
 }
