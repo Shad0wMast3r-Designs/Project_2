@@ -437,6 +437,14 @@ footer{
 footer p {
   padding-bottom: 10px;
 }
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  color: #BA27C4;
+  font-weight: 600;
+}
 /*Andy Kukuc about.html css DON'T TOUCH*/
 #map { /*google maps api key no longer free*/
   height: 250px;
