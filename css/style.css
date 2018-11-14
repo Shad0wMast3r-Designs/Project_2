@@ -434,7 +434,9 @@ footer{
   padding-bottom: 20px;
   padding-top: 20px;
 }
-
+footer p {
+  padding-bottom: 10px;
+}
 /*Andy Kukuc about.html css DON'T TOUCH*/
 #map { /*google maps api key no longer free*/
   height: 250px;
