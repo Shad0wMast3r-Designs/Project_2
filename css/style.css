@@ -484,7 +484,7 @@ div#about > p {
   margin: 5% auto;
   width: 600px;
   height: 400px;
-  background: #fff;
+  background: #ffffff;
   border-radius: 2px;
   box-shadow: 0 2px 4px;
 }
@@ -516,7 +516,7 @@ input[type="text"] {
   width: 220px;
   height: 32px;
   border: none;
-  border-bottom: 1px solid #AAA;
+  border-bottom: 1px solid #AAAAAA;
   font-weight: 400;
   font-size: 15px;
   transition: 0.2s ease;
