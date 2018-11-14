@@ -434,15 +434,18 @@ footer{
   padding-bottom: 20px;
   padding-top: 20px;
 }
+
 footer p {
   padding-bottom: 10px;
 }
+
 footer a {
   text-decoration: none;
   color: white;
 }
+
 footer a:hover {
-  color: #BA27C4;
+  color: #E9E125;
   font-weight: 600;
 }
 /*Andy Kukuc about.html css DON'T TOUCH*/
