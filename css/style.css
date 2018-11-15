@@ -481,12 +481,28 @@ div#about > p {
   padding-bottom: 10px;
   font-size: 1.125em;
 }
-div#con > h1 {
+div#con h1 {
+  padding: 10px;
   font-family: inherit;
   font-weight: bold;
   text-align: center;
 }
-
+div#con h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 10px;
+}
+div#con p{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1.3em;
+  padding-bottom: 10px;
+  line-height: 1.5;
+  margin-top: 5px;
+}
+strong {
+  font-weight: bold;
+}
 /* css for the events page. DJ RYBSKI */
 #sign_up_box {
   position: relative;
@@ -657,9 +673,9 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
     width: 40%;
   }
 
-  #isud > h1, h2, #isud p{
+  #isud > h1, h2,#isud p,#con{
     width: 50%;
-  }
+}
 
   h1{
     font-size: 1.728em;
@@ -686,7 +702,7 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
     padding-top: 40px;
     padding-bottom: 40px;
   }
-  #map, #about  {
+  #map, #about,#con  {
     max-width: 72.444em;
   }
   #about {
@@ -695,5 +711,9 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
   }
   #sign_up_box {
     max-width: 40.444em;
+  }
+  #con {
+    margin-right: auto;
+    margin-left: auto;
   }
 }
