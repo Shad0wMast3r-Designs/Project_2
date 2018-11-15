@@ -481,8 +481,9 @@ div#about > p {
   padding-bottom: 10px;
   font-size: 1.125em;
 }
-#const h1 {
+div#con > h1 {
   font-family: inherit;
+  font-weight: bold;
   text-align: center;
 }
 
