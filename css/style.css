@@ -474,6 +474,7 @@ div#about > h3 {
 }
 
 div#about > p {
+  line-height: 1.5;
   margin-top: 5px;
   margin-left: 10px;
   margin-right: 10px;
