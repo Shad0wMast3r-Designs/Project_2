@@ -253,17 +253,21 @@ input[type=date] {
 
 .nav {
   width: 100%;
+  position: fixed;
   background-color: #2F3648;
   text-align: center;
+  top:0;
 }
 
 .nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   background-color: #2F3648;
   display: inline-block;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
 }
 
 .nav li {
@@ -306,6 +310,7 @@ div#about > html {
 }
 
 .banner_pic {
+  margin-top: 50px;
   max-width: 135px;
   max-height: 132px;
   display: block;
@@ -316,6 +321,12 @@ div#about > html {
   padding: 1%;
 }
 
+.face {
+  padding-top: 10px;
+  padding-right: 20px;
+  float: right;
+  display: inline-block;
+}
 /*Home Page Specific CSS - Geldi Omeri*/
 
 div#slideShow{
@@ -449,6 +460,7 @@ footer a:hover {
   color: #E9E125;
   font-weight: 600;
 }
+
 /*Andy Kukuc about.html css DON'T TOUCH*/
 #map { /*google maps api key no longer free*/
   height: 250px;
@@ -479,7 +491,7 @@ div#about > p {
   margin-left: 10px;
   margin-right: 10px;
   padding-bottom: 10px;
-  font-size: 1.125em;
+  font-size: 1.3em;
 }
 div#con h1 {
   padding: 10px;
@@ -502,6 +514,9 @@ div#con p{
 }
 strong {
   font-weight: bold;
+}
+mark {
+  background-color: #E9E125;
 }
 /* css for the events page. DJ RYBSKI */
 #sign_up_box {
@@ -593,7 +608,7 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
 /*Home Page CSS - Geldi Omeri*/
 
   .nav li a {
-    padding: 10px 25px;
+    
   }
 
   .slides{
@@ -621,6 +636,10 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
   }
   #sign_up_box {
     width: 100%;
+  }
+  #con {
+    text-align: left;
+    font-size: 1.125em;
   }
 }
 /*Tablets, Small laptops*/
