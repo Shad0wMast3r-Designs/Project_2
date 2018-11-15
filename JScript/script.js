@@ -47,8 +47,14 @@ function initMap()
     zoomControl: true,
     zoomControlOptions:
     {
-      position: google.maps.ControlPosition.RIGHT_CENTER
+      position: google.maps.ControlPosition.TOP_LEFT
+    },
+    scaleControl: true,
+    streetViewControl: true,
+    streetViewControlOptions: {
+      position: google.maps.ControlPosition.BOTTOM_LEFT
     }
+
   });
 
   var contentString =
@@ -74,4 +80,3 @@ function initMap()
   });
 }
 google.maps.event.addDomListener(window, 'load', initMap);
-
