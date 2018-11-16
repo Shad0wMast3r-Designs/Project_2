@@ -20,22 +20,21 @@
       </div>
       <h1 class="title">International Society for Universal Dialogue</h1>
       <nav class="nav">
-        <ul>
-          <li><a href="index.html">Home</a></li>
+        <ul class = "actual_navigation">
+         <li><a href="index.html">Home</a></li>
           <li><a class="active" href="events.html">Events</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="const.html">Constitution</a></li>
         </ul>
-        <a href="https://www.facebook.com/ISUDXIIWorldCongress"><img src="media/face.png" alt="facebook" class="face"></a> 
+        <a href="https://www.facebook.com/ISUDXIIWorldCongress"><img src="media/face.png" alt="facebook" class="face"></a>
       </nav>
     </header>
     <main>
-    <div id="sign_up_box">
-    <form method="get" action="#null" autocomplete="on" onsubmit="myFunction();">
+    <form id="sign_up_box" method="get" action="#null" autocomplete="on" onsubmit="myFunction();">
+      <div class="signup">
+        <h1>Sign Up To Get The Latest Events!</h1>
+      </div>
       <div class="left">
-        <div id="signup">
-      <h1>Sign Up To Get The Latest Events!</h1>
-        </div>
         <div>
           <input type="text" name="name" value="" placeholder="Enter Full Name" required/>
         </div>
@@ -49,11 +48,12 @@
           <input type="submit" name="submit" value="sign me up!">
         </div>
       </div>
-        <div>
-          <img src="media/globe2.jpg" alt=globe class="right_content">
+      <div class="right">
+        <div class="right_image">
+        <img src="media/globe2.jpg" alt=globe>
         </div>
+      </div>
     </form>
-    </div>
     </main>
     <footer>
       <p>Email: <a href="mailto:isud2018@gmail.com">isud2018@gmail.com</a></p>
