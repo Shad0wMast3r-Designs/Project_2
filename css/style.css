@@ -280,7 +280,7 @@ input[type=date] {
   display: block;
   color: white;
   text-align: center;
-  padding: 10px 16px;
+  padding: 12px 8px;
   text-decoration: none;
 }
 
@@ -323,17 +323,15 @@ div#about > html {
 }
 
 .face {
-  padding-top: 10px;
-  padding-right: 20px;
-  float: right;
   display: inline-block;
+	position: relative;
 }
 /*Home Page Specific CSS - Geldi Omeri*/
 
 div#slideShow{
   /* Main wrapper for all images */
   max-width: 100%;
-  max-height: 250px;
+  max-height: 100%;
   margin: auto;
   overflow: hidden;
   position: relative;
@@ -341,7 +339,7 @@ div#slideShow{
 
 .slides{
   width: 100%;
-  height: 50%;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
@@ -468,7 +466,7 @@ footer a:hover {
   width: 100%;
   border: 5px solid black;
   margin-top: 20px;
-  position: relative; 
+  position: relative;
   margin-right: auto;
   margin-left: auto;
 }
@@ -575,10 +573,12 @@ input[type="text"] {
   font-size: 15px;
   transition: 0.2s ease;
 }
+
 input[type="text"]:focus {
   border-bottom: 2px solid #BA27C4;
   transition: 0.2s ease;
 }
+
 input[type="submit"] {
   margin-top: 1em;
   font-family: inherit;
@@ -613,20 +613,13 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
 
 /*Home Page CSS - Geldi Omeri*/
 
-  .nav li a {
-    
-  }
-
-  .slides{
-    width: 70%;
-   }
-
   #isud  h1, h2, #isud p{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
   }
+
   p.end{
     margin-bottom: 10px;
   }
@@ -658,9 +651,6 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
     padding: 15px 30px;
   }
 
-  .slides{
-    width: 60%;
-  }
 
   #isud > h1, h2, #isud p{
     width: 60%;
@@ -689,18 +679,14 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
 @media screen and (min-width: 1024px){
 
 /*Home Page CSS - Geldi Omeri*/
-  
+
   .nav li a {
     padding: 20px 40px;
   }
 
-  .slides{
-    width: 40%;
-  }
-
   #isud > h1, h2,#isud p,#con{
     width: 50%;
-}
+	}
 
   h1{
     font-size: 1.728em;
