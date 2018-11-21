@@ -524,7 +524,7 @@ mark {
   grid-template-rows:auto;
   grid-column-gap:20px;
   margin: 2% auto;
-  width: 600px;
+  width: 96%;
   height: 400px;
   background: #ffffff;
   border-radius: 2px;
@@ -546,7 +546,7 @@ mark {
 }
 
 .right_image img{
-  display:block;
+  display: none;
   max-width:83%;
 }
 
@@ -648,7 +648,13 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
     text-align: left;
     font-size: 1.125em;
   }
+
+	/*events page*/
+
+	.right_image img{
+	  display: block;
 }
+
 /*Tablets, Small laptops*/
 
 @media screen and (min-width: 768px){
