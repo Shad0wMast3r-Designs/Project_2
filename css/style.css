@@ -644,6 +644,9 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
 /*Tablets, Small laptops*/
 
 @media screen and (min-width: 768px){
+	.banner_pic{
+		margin-top: 55px;
+	}
 
 /*Home Page CSS - Geldi Omeri*/
 
@@ -677,6 +680,10 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
 /*Desktops, Large Monitors*/
 
 @media screen and (min-width: 1024px){
+
+	.banner_pic{
+		margin-top: 65px;
+	}
 
 /*Home Page CSS - Geldi Omeri*/
 
