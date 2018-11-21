@@ -463,7 +463,7 @@ footer a:hover {
 /*Andy Kukuc about.html css DON'T TOUCH*/
 #map { /*google maps api key no longer free*/
   height: 250px;
-  width: 100%;
+  width: 96%;
   border: 5px solid black;
   margin-top: 20px;
   position: relative;
